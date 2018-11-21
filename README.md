@@ -19,6 +19,7 @@ $ terraform init
 $ terraform apply
 $ echo "High Five !"
 $ terraform destroy
+```
 
 Notes / Constraints:
 
