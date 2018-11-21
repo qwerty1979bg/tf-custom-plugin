@@ -1,0 +1,20 @@
+---
+driver:
+  name: terraform
+#  variable_files:
+#    - testing.tfvars
+
+provisioner:
+  name: terraform
+
+platforms:
+  - name: module
+
+verifier:
+  name: terraform
+  systems:
+    - name: default
+      backend: local
+
+suites:
+  - name: default
