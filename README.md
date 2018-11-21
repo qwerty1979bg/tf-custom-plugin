@@ -20,7 +20,3 @@ $ terraform apply
 $ echo "High Five !"
 $ terraform destroy
 ```
-
-Notes / Constraints:
-
-Note: Third-party plugins should usually be installed in the user plugins directory, which is located at ~/.terraform.d/plugins on most operating systems and <APPLICATION DATA>\plugins on Windows.

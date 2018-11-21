@@ -7,8 +7,8 @@ Vagrant.configure("2") do |config|
   config.vm.define name="go" do |node|
     node.vm.box = "ubuntu/xenial64"
     node.vm.hostname = "go"
-    node.vm.provision "shell", path: "provision_go.sh"
-    node.vm.provision "shell", path: "build_go.sh"
+    node.vm.provision "shell", path: "scripts/install_golang.sh"
+    node.vm.provision "shell", path: "build_plugin.sh"
   end
 
 end
