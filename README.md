@@ -11,8 +11,14 @@ $ echo "Hope for the best"
 $ vagrant destroy
 ```
 
-- [ ]  Create a sample TF code
-- [ ]  Install the custom TF module
+- [x]  Create a sample TF code
+- [x]  Install the custom TF module
+
+```
+$ terraform init
+$ terraform apply
+$ echo "High Five !"
+$ terraform destroy
 
 Notes / Constraints:
 
