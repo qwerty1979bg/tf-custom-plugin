@@ -8,5 +8,7 @@
 # .tfvars files
 *.tfvars
 
+terraform.d/
+
 #local vagrant box
 .vagrant/
