@@ -7,3 +7,6 @@
 
 # .tfvars files
 *.tfvars
+
+#local vagrant box
+.vagrant/
