@@ -10,6 +10,6 @@ done
 
 mkdir -p /vagrant/.terraform.d/plugins
 
-cp -R ~/go/bin/* /vagrant/.terraform.d/plugins/ && echo "Success: Module(s) built. You can run 'vagrant destroy' now"
+cp -R ~/go/bin/* /vagrant/terraform.d/plugins/ && echo "Success: Module(s) built. You can run 'vagrant destroy' now"
 
 sudo poweroff
